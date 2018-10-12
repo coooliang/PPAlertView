@@ -1,5 +1,5 @@
 # PPAlertView
-* n alert view
+* an alert view
 * not profound code , just save your time
 
 ```

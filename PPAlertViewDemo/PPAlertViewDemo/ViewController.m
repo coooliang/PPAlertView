@@ -28,7 +28,16 @@
     } close:^{
         NSLog(@"close");
     }];
-    [alertView show:@"提示" msg:@"版本更新成功版本更新成功版本更新成功" buttons:@[@"好的，去设置"]];
+    [alertView show:@"" msg:@"版本更新成功版本更新成功版本更新成功" buttons:@[@"好的，去设置"]];
+}
+-(IBAction)click11:(id)sender{
+    PPAlertView *alertView = [PPAlertView new];
+    [alertView callback:^(UIButton * _Nonnull button) {
+        NSLog(@"tag %ld",(long)button.tag);
+    } close:^{
+        NSLog(@"close");
+    }];
+    [alertView show:@"" msg:@"版本更新成功版本更新成功版本更新成功" buttons:@[@"好的，去设置"]];
 }
 
 -(IBAction)click2:(id)sender{

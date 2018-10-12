@@ -45,6 +45,14 @@
                                     <action selector="click2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vvi-K0-zPP"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ept-5H-4YB">
+                                <rect key="frame" x="238" y="119" width="122" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="button11"/>
+                                <connections>
+                                    <action selector="click11:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cYa-YH-gdG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>

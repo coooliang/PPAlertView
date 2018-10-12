@@ -59,7 +59,12 @@ typedef void (^ButtonBlock)(UIButton *button);
     _whiteBg.layer.cornerRadius = 5;
     _whiteBg.layer.masksToBounds = YES;
     
-    _titleLabel = [[UILabel alloc]initWithFrame:CGRectMake(40, 20, bgWidth-80, 40)];
+    NSString *tt = safeString(title);
+    float titleHeight = 40;
+    if ([@""isEqualToString:tt]) {
+        titleHeight = 20;
+    }
+    _titleLabel = [[UILabel alloc]initWithFrame:CGRectMake(40, 20, bgWidth-80, titleHeight)];
     _titleLabel.backgroundColor = [UIColor clearColor];
     UIFont *f = [UIFont fontWithName:_titleFontFamily size:24];
     if (!f) {
@@ -67,8 +72,10 @@ typedef void (^ButtonBlock)(UIButton *button);
     }
     _titleLabel.font = f;
     _titleLabel.textAlignment = NSTextAlignmentCenter;
-    _titleLabel.text = safeString(title);
+    _titleLabel.text = tt;
     [_whiteBg addSubview:_titleLabel];
+    
+    
     
     //close button
     if(!_hiddenCloseButton){
@@ -124,7 +131,7 @@ typedef void (^ButtonBlock)(UIButton *button);
     
     float originY = CGRectGetMaxY(_msgLabel.frame);
     if (buttons.count < 3) {
-        originY += 10;
+        originY += 20;
         //add line
         UIView *line = [[UIView alloc]initWithFrame:CGRectMake(20, originY, bgWidth-40, ONE_SCALE)];
         line.backgroundColor = ONE_LINE_COLOR;

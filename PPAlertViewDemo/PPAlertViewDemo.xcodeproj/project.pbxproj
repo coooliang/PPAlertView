@@ -88,10 +88,10 @@
 		90E7F1C721708795002E0D90 /* PPAlertView */ = {
 			isa = PBXGroup;
 			children = (
+				90E7F1D121708795002E0D90 /* PPAlertView.h */,
 				90E7F1C821708795002E0D90 /* PPAlertView.m */,
 				90E7F1C921708795002E0D90 /* Category */,
 				90E7F1CE21708795002E0D90 /* images */,
-				90E7F1D121708795002E0D90 /* PPAlertView.h */,
 			);
 			path = PPAlertView;
 			sourceTree = "<group>";
@@ -99,10 +99,10 @@
 		90E7F1C921708795002E0D90 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				90E7F1CA21708795002E0D90 /* UIView+CGAffineTransfor.m */,
 				90E7F1CB21708795002E0D90 /* UIColor+Tools.h */,
-				90E7F1CC21708795002E0D90 /* UIView+CGAffineTransfor.h */,
 				90E7F1CD21708795002E0D90 /* UIColor+Tools.m */,
+				90E7F1CC21708795002E0D90 /* UIView+CGAffineTransfor.h */,
+				90E7F1CA21708795002E0D90 /* UIView+CGAffineTransfor.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";

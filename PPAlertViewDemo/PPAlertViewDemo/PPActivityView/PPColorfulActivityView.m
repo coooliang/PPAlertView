@@ -33,7 +33,10 @@
 -(void)initActivityView:(CGRect)bounds{
     CGSize size = bounds.size;
     _angle = 0;
-    _logoImageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@""]];//pp_activity_view_mask_center
+    
+    //TODO:TEST replace pp_activity_view_mask_center，48*24 73*37
+    _logoImageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@""]];
+    
     [self addSubview:_logoImageView];
     _animatedCircleImageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"pp_activity_view_animate_circle"]];
     [_animatedCircleImageView setFrame:CGRectMake(8, (size.height - 37) / 2, 37, 37)];

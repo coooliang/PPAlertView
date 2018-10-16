@@ -23,6 +23,9 @@
 		90E7F2062175BE46002E0D90 /* pp_activity_view_animate_circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90E7F2022175BE46002E0D90 /* pp_activity_view_animate_circle@3x.png */; };
 		90E7F2072175BE46002E0D90 /* pp_activity_view_animate_circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90E7F2032175BE46002E0D90 /* pp_activity_view_animate_circle@2x.png */; };
 		90E7F20C2175BFA5002E0D90 /* PPHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E7F20B2175BFA5002E0D90 /* PPHUD.m */; };
+		90E7F20F2175CAA8002E0D90 /* pp_activity_view_mask_center@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90E7F20D2175CAA7002E0D90 /* pp_activity_view_mask_center@2x.png */; };
+		90E7F2102175CAA8002E0D90 /* pp_activity_view_mask_center@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90E7F20E2175CAA8002E0D90 /* pp_activity_view_mask_center@3x.png */; };
+		90E7F2172175DAD8002E0D90 /* PPTip.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E7F2162175DAD8002E0D90 /* PPTip.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +55,10 @@
 		90E7F2032175BE46002E0D90 /* pp_activity_view_animate_circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pp_activity_view_animate_circle@2x.png"; sourceTree = "<group>"; };
 		90E7F20A2175BFA5002E0D90 /* PPHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPHUD.h; sourceTree = "<group>"; };
 		90E7F20B2175BFA5002E0D90 /* PPHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPHUD.m; sourceTree = "<group>"; };
+		90E7F20D2175CAA7002E0D90 /* pp_activity_view_mask_center@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pp_activity_view_mask_center@2x.png"; sourceTree = "<group>"; };
+		90E7F20E2175CAA8002E0D90 /* pp_activity_view_mask_center@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pp_activity_view_mask_center@3x.png"; sourceTree = "<group>"; };
+		90E7F2152175DAD8002E0D90 /* PPTip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPTip.h; sourceTree = "<group>"; };
+		90E7F2162175DAD8002E0D90 /* PPTip.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPTip.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +153,8 @@
 		90E7F1F82175BBBA002E0D90 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				90E7F20D2175CAA7002E0D90 /* pp_activity_view_mask_center@2x.png */,
+				90E7F20E2175CAA8002E0D90 /* pp_activity_view_mask_center@3x.png */,
 				90E7F2032175BE46002E0D90 /* pp_activity_view_animate_circle@2x.png */,
 				90E7F2022175BE46002E0D90 /* pp_activity_view_animate_circle@3x.png */,
 			);
@@ -157,6 +166,8 @@
 			children = (
 				90E7F20A2175BFA5002E0D90 /* PPHUD.h */,
 				90E7F20B2175BFA5002E0D90 /* PPHUD.m */,
+				90E7F2152175DAD8002E0D90 /* PPTip.h */,
+				90E7F2162175DAD8002E0D90 /* PPTip.m */,
 			);
 			path = PPHUD;
 			sourceTree = "<group>";
@@ -219,6 +230,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				90E7F2072175BE46002E0D90 /* pp_activity_view_animate_circle@2x.png in Resources */,
+				90E7F2102175CAA8002E0D90 /* pp_activity_view_mask_center@3x.png in Resources */,
+				90E7F20F2175CAA8002E0D90 /* pp_activity_view_mask_center@2x.png in Resources */,
 				90E7F2062175BE46002E0D90 /* pp_activity_view_animate_circle@3x.png in Resources */,
 				90E7F1BE217086EB002E0D90 /* LaunchScreen.storyboard in Resources */,
 				90E7F1BB217086EB002E0D90 /* Assets.xcassets in Resources */,
@@ -242,6 +255,7 @@
 				90E7F1C1217086EB002E0D90 /* main.m in Sources */,
 				90E7F1B3217086E9002E0D90 /* AppDelegate.m in Sources */,
 				90E7F1EA2175B5A1002E0D90 /* PPActivityView.m in Sources */,
+				90E7F2172175DAD8002E0D90 /* PPTip.m in Sources */,
 				90E7F1D221708795002E0D90 /* PPAlertView.m in Sources */,
 				90E7F1D421708795002E0D90 /* UIColor+Tools.m in Sources */,
 			);
@@ -395,7 +409,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.chenl.test.PPAlertViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = YinYinPingTai;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -413,7 +427,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.chenl.test.PPAlertViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = YinYinPingTai;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

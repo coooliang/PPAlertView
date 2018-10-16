@@ -53,7 +53,7 @@ static float const time_out_seconds = 20;
 
 -(void)startAnimate{
     //隐藏键盘
-    [[NSNotificationCenter defaultCenter]postNotificationName:UIKeyboardWillHideNotification object:nil];
+    [[[UIApplication sharedApplication] keyWindow] endEditing:YES];
     
     self.hidden = NO;
     [_indicatorView startAnimating];

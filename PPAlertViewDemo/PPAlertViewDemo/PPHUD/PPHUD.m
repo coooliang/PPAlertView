@@ -7,7 +7,13 @@
 //
 
 #import "PPHUD.h"
+#import <UIKit/UIKit.h>
 
+static float const pphud_delay = 1.5;
 @implementation PPHUD
+
++(void)showMessage:(NSString *)message{
+    UIApplication.sharedApplication.keyWindow.bounds;
+}
 
 @end

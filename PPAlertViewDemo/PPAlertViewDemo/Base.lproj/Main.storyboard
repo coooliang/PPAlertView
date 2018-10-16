@@ -37,6 +37,14 @@
                                     <action selector="click3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lj8-LY-BHm"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Tf-zG-i43">
+                                <rect key="frame" x="16" y="175" width="122" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="startAnimate"/>
+                                <connections>
+                                    <action selector="showActivity:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wvx-dY-4aL"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="thB-ha-VGN">
                                 <rect key="frame" x="0.0" y="108" width="122" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -53,12 +61,19 @@
                                     <action selector="click11:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cYa-YH-gdG"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Tf-zG-i43">
-                                <rect key="frame" x="16" y="175" width="122" height="57"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xSK-wd-sdU">
+                                <rect key="frame" x="87" y="522" width="176" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="startAnimate"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ypt-rv-qM8">
+                                <rect key="frame" x="152" y="175" width="122" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="hud1"/>
                                 <connections>
-                                    <action selector="showActivity:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wvx-dY-4aL"/>
+                                    <action selector="hud1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="el2-wT-3aB"/>
                                 </connections>
                             </button>
                         </subviews>

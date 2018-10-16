@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "PPAlertView/PPAlertView.h"
 #import "PPActivityView/PPActivityView.h"
+#import "PPHUD/PPHUD.h"
 
 @interface ViewController ()
 
@@ -69,4 +70,9 @@
     [self.view addSubview:activityView];
     [activityView startAnimate];
 }
+
+-(IBAction)hud1:(id)sender{
+
+}
+
 @end

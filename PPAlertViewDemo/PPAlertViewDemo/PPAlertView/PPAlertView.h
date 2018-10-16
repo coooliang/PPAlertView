@@ -23,7 +23,6 @@ typedef NS_ENUM(NSInteger, PPAlertViewColor){
     PPAlertViewColorGreen
 };
 
-
 @interface PPAlertView : UIView
 
 -(void)show:(NSString *)title msg:(NSString *)msg buttons:(NSArray *)buttons;

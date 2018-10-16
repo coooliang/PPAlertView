@@ -1,5 +1,5 @@
 //
-//  PPHUD.h
+//  PPTip.h
 //  PPAlertViewDemo
 //
 //  Created by chenliang on 16/10/2018.
@@ -10,9 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface PPHUD : NSObject
-
-+(void)showMessage:(NSString *)message;
+@interface PPTip : NSObject
 
 @end
 

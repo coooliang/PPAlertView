@@ -201,6 +201,10 @@ typedef void (^ButtonBlock)(UIButton *button);
     _whiteBg.frame = temp;
     [self addSubview:_whiteBg];
     
+    
+    //隐藏键盘
+    [[[UIApplication sharedApplication] keyWindow] endEditing:YES];
+    
     [UIApplication.sharedApplication.keyWindow addSubview:self];
     [_whiteBg show:nil];
 }

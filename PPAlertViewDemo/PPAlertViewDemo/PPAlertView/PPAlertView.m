@@ -81,7 +81,7 @@ typedef void (^ButtonBlock)(UIButton *button);
     if(!_hiddenCloseButton){
         UIButton *closeButton = [[UIButton alloc]initWithFrame:CGRectMake(_whiteBg.frame.size.width-50, 0, 50, 50)];
         closeButton.backgroundColor = [UIColor clearColor];
-        [closeButton setImage:[UIImage imageNamed:@"closed"] forState:UIControlStateNormal];
+        [closeButton setImage:[UIImage imageNamed:@"pp_alert_view_closed"] forState:UIControlStateNormal];
         [closeButton addTarget:self action:@selector(close) forControlEvents:UIControlEventTouchUpInside];
         [_whiteBg addSubview:closeButton];
     }

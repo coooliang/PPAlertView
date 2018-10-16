@@ -16,8 +16,13 @@
 		90E7F1D221708795002E0D90 /* PPAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E7F1C821708795002E0D90 /* PPAlertView.m */; };
 		90E7F1D321708795002E0D90 /* UIView+CGAffineTransfor.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E7F1CA21708795002E0D90 /* UIView+CGAffineTransfor.m */; };
 		90E7F1D421708795002E0D90 /* UIColor+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E7F1CD21708795002E0D90 /* UIColor+Tools.m */; };
-		90E7F1D521708795002E0D90 /* closed@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90E7F1CF21708795002E0D90 /* closed@3x.png */; };
-		90E7F1D621708795002E0D90 /* closed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90E7F1D021708795002E0D90 /* closed@2x.png */; };
+		90E7F1EA2175B5A1002E0D90 /* PPActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E7F1E92175B5A1002E0D90 /* PPActivityView.m */; };
+		90E7F1ED2175B6DA002E0D90 /* PPColorfulActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E7F1EC2175B6DA002E0D90 /* PPColorfulActivityView.m */; };
+		90E7F1F62175BBAD002E0D90 /* pp_alert_view_closed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90E7F1F42175BBAD002E0D90 /* pp_alert_view_closed@2x.png */; };
+		90E7F1F72175BBAD002E0D90 /* pp_alert_view_closed@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90E7F1F52175BBAD002E0D90 /* pp_alert_view_closed@3x.png */; };
+		90E7F2062175BE46002E0D90 /* pp_activity_view_animate_circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90E7F2022175BE46002E0D90 /* pp_activity_view_animate_circle@3x.png */; };
+		90E7F2072175BE46002E0D90 /* pp_activity_view_animate_circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90E7F2032175BE46002E0D90 /* pp_activity_view_animate_circle@2x.png */; };
+		90E7F20C2175BFA5002E0D90 /* PPHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E7F20B2175BFA5002E0D90 /* PPHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,9 +41,17 @@
 		90E7F1CB21708795002E0D90 /* UIColor+Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Tools.h"; sourceTree = "<group>"; };
 		90E7F1CC21708795002E0D90 /* UIView+CGAffineTransfor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CGAffineTransfor.h"; sourceTree = "<group>"; };
 		90E7F1CD21708795002E0D90 /* UIColor+Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Tools.m"; sourceTree = "<group>"; };
-		90E7F1CF21708795002E0D90 /* closed@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "closed@3x.png"; sourceTree = "<group>"; };
-		90E7F1D021708795002E0D90 /* closed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "closed@2x.png"; sourceTree = "<group>"; };
 		90E7F1D121708795002E0D90 /* PPAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPAlertView.h; sourceTree = "<group>"; };
+		90E7F1E82175B5A1002E0D90 /* PPActivityView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPActivityView.h; sourceTree = "<group>"; };
+		90E7F1E92175B5A1002E0D90 /* PPActivityView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPActivityView.m; sourceTree = "<group>"; };
+		90E7F1EB2175B6DA002E0D90 /* PPColorfulActivityView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPColorfulActivityView.h; sourceTree = "<group>"; };
+		90E7F1EC2175B6DA002E0D90 /* PPColorfulActivityView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPColorfulActivityView.m; sourceTree = "<group>"; };
+		90E7F1F42175BBAD002E0D90 /* pp_alert_view_closed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pp_alert_view_closed@2x.png"; sourceTree = "<group>"; };
+		90E7F1F52175BBAD002E0D90 /* pp_alert_view_closed@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pp_alert_view_closed@3x.png"; sourceTree = "<group>"; };
+		90E7F2022175BE46002E0D90 /* pp_activity_view_animate_circle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pp_activity_view_animate_circle@3x.png"; sourceTree = "<group>"; };
+		90E7F2032175BE46002E0D90 /* pp_activity_view_animate_circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pp_activity_view_animate_circle@2x.png"; sourceTree = "<group>"; };
+		90E7F20A2175BFA5002E0D90 /* PPHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPHUD.h; sourceTree = "<group>"; };
+		90E7F20B2175BFA5002E0D90 /* PPHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +84,8 @@
 		90E7F1B0217086E9002E0D90 /* PPAlertViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				90E7F2092175BF68002E0D90 /* PPHUD */,
+				90E7F1E72175B55F002E0D90 /* PPActivityView */,
 				90E7F1C721708795002E0D90 /* PPAlertView */,
 				90E7F1B1217086E9002E0D90 /* AppDelegate.h */,
 				90E7F1B2217086E9002E0D90 /* AppDelegate.m */,
@@ -90,8 +105,8 @@
 			children = (
 				90E7F1D121708795002E0D90 /* PPAlertView.h */,
 				90E7F1C821708795002E0D90 /* PPAlertView.m */,
+				90E7F1F32175BBAD002E0D90 /* images */,
 				90E7F1C921708795002E0D90 /* Category */,
-				90E7F1CE21708795002E0D90 /* images */,
 			);
 			path = PPAlertView;
 			sourceTree = "<group>";
@@ -107,13 +122,43 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
-		90E7F1CE21708795002E0D90 /* images */ = {
+		90E7F1E72175B55F002E0D90 /* PPActivityView */ = {
 			isa = PBXGroup;
 			children = (
-				90E7F1CF21708795002E0D90 /* closed@3x.png */,
-				90E7F1D021708795002E0D90 /* closed@2x.png */,
+				90E7F1E82175B5A1002E0D90 /* PPActivityView.h */,
+				90E7F1E92175B5A1002E0D90 /* PPActivityView.m */,
+				90E7F1EB2175B6DA002E0D90 /* PPColorfulActivityView.h */,
+				90E7F1EC2175B6DA002E0D90 /* PPColorfulActivityView.m */,
+				90E7F1F82175BBBA002E0D90 /* images */,
+			);
+			path = PPActivityView;
+			sourceTree = "<group>";
+		};
+		90E7F1F32175BBAD002E0D90 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				90E7F1F42175BBAD002E0D90 /* pp_alert_view_closed@2x.png */,
+				90E7F1F52175BBAD002E0D90 /* pp_alert_view_closed@3x.png */,
 			);
 			path = images;
+			sourceTree = "<group>";
+		};
+		90E7F1F82175BBBA002E0D90 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				90E7F2032175BE46002E0D90 /* pp_activity_view_animate_circle@2x.png */,
+				90E7F2022175BE46002E0D90 /* pp_activity_view_animate_circle@3x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		90E7F2092175BF68002E0D90 /* PPHUD */ = {
+			isa = PBXGroup;
+			children = (
+				90E7F20A2175BFA5002E0D90 /* PPHUD.h */,
+				90E7F20B2175BFA5002E0D90 /* PPHUD.m */,
+			);
+			path = PPHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,11 +218,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90E7F2072175BE46002E0D90 /* pp_activity_view_animate_circle@2x.png in Resources */,
+				90E7F2062175BE46002E0D90 /* pp_activity_view_animate_circle@3x.png in Resources */,
 				90E7F1BE217086EB002E0D90 /* LaunchScreen.storyboard in Resources */,
-				90E7F1D521708795002E0D90 /* closed@3x.png in Resources */,
 				90E7F1BB217086EB002E0D90 /* Assets.xcassets in Resources */,
+				90E7F1F62175BBAD002E0D90 /* pp_alert_view_closed@2x.png in Resources */,
 				90E7F1B9217086E9002E0D90 /* Main.storyboard in Resources */,
-				90E7F1D621708795002E0D90 /* closed@2x.png in Resources */,
+				90E7F1F72175BBAD002E0D90 /* pp_alert_view_closed@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,9 +236,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				90E7F1B6217086E9002E0D90 /* ViewController.m in Sources */,
+				90E7F1ED2175B6DA002E0D90 /* PPColorfulActivityView.m in Sources */,
 				90E7F1D321708795002E0D90 /* UIView+CGAffineTransfor.m in Sources */,
+				90E7F20C2175BFA5002E0D90 /* PPHUD.m in Sources */,
 				90E7F1C1217086EB002E0D90 /* main.m in Sources */,
 				90E7F1B3217086E9002E0D90 /* AppDelegate.m in Sources */,
+				90E7F1EA2175B5A1002E0D90 /* PPActivityView.m in Sources */,
 				90E7F1D221708795002E0D90 /* PPAlertView.m in Sources */,
 				90E7F1D421708795002E0D90 /* UIColor+Tools.m in Sources */,
 			);

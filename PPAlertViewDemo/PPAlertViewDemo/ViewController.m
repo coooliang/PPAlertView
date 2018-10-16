@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "PPAlertView/PPAlertView.h"
+#import "PPActivityView/PPActivityView.h"
 
 @interface ViewController ()
 
@@ -23,6 +24,7 @@
 -(IBAction)click1:(id)sender{
     PPAlertView *alertView = [PPAlertView new];
     alertView.hiddenCloseButton = YES;
+    alertView.hideAnimate = PPAlertViewHideAnimationNone;
     [alertView callback:^(UIButton * _Nonnull button) {
         NSLog(@"tag %ld",(long)button.tag);
     } close:^{
@@ -60,5 +62,11 @@
     } close:^{
         NSLog(@"close");
     }];
+}
+
+-(IBAction)showActivity:(id)sender{
+    PPActivityView *activityView = [[PPActivityView alloc]initWithFrame:self.view.bounds];
+    [self.view addSubview:activityView];
+    [activityView startAnimate];
 }
 @end

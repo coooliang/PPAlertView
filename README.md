@@ -15,9 +15,18 @@ PPAlertView *alertView = [PPAlertView new];
 }];
 
 ```
-<img src="https://github.com/coooliang/PPAlertView/blob/master/1.png" width="30%" height="30%" />
+<figure class="third">
+	<img src="https://github.com/coooliang/PPAlertView/blob/master/1.png" width="30%" height="30%" />
+	<img src="https://github.com/coooliang/PPAlertView/blob/master/2.png" width="30%" height="30%" />
+	<img src="https://github.com/coooliang/PPAlertView/blob/master/3.png" width="30%" height="30%" />
+</figure>
 
-<img src="https://github.com/coooliang/PPAlertView/blob/master/2.png" width="30%" height="30%" />
+<figure>
+<img src="https://github.com/coooliang/PPAlertView/blob/master/21.png" width="30%" height="60%" />
+</figure>
 
-<img src="https://github.com/coooliang/PPAlertView/blob/master/3.png" width="30%" height="30%" />
+<figure>
+<img src="https://github.com/coooliang/PPAlertView/blob/master/31.png" width="30%" height="60%" />
+</figure>
+
 

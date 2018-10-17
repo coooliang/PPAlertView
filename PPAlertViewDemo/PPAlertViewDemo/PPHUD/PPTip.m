@@ -38,7 +38,7 @@
         _messageLabel.backgroundColor = label_bg;
         _messageLabel.layer.cornerRadius = 5;
         _messageLabel.layer.masksToBounds = YES;
-        _messageLabel.textColor = [UIColor colorWithRed:0.267 green:0.271 blue:0.271 alpha:1.000];        
+        _messageLabel.textColor = [UIColor colorWithRed:0.267 green:0.271 blue:0.271 alpha:1.000];
     }
     return self;
 }

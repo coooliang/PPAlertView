@@ -13,7 +13,7 @@
 #define WIDTH ([[UIScreen mainScreen] bounds].size.width)
 #define HEIGHT ([[UIScreen mainScreen] bounds].size.height)
 
-//static float const pphud_delay = 1.5;
+static float const pphud_delay = 1.5;
 @implementation PPHUD
 
 +(void)showMessage:(NSString *)message{
@@ -28,7 +28,7 @@
     [UIApplication.sharedApplication.keyWindow addSubview:tip];
     [tip showMessage:message type:tipType];
     
-    [tip performSelector:@selector(hide) withObject:nil afterDelay:1.5];
+    [tip performSelector:@selector(hide) withObject:nil afterDelay:pphud_delay];
 }
 
 @end

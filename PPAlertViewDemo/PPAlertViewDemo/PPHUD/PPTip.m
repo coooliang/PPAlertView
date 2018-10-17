@@ -12,7 +12,6 @@
 #define HEIGHT ([[UIScreen mainScreen] bounds].size.height)
 
 #define bg [UIColor colorWithRed:1 green:1 blue:1 alpha:0]
-#define label_bg [UIColor colorWithRed:0.894 green:0.906 blue:0.918 alpha:1.000]
 #define label_font [UIFont boldSystemFontOfSize:16]
 
 
@@ -35,10 +34,14 @@
         _messageLabel = [[UILabel alloc]initWithFrame:CGRectMake((WIDTH-150)/2.0, (HEIGHT-50)/2.0-50, 150,50)];
         _messageLabel.font = label_font;
         _messageLabel.textAlignment = NSTextAlignmentCenter;
-        _messageLabel.backgroundColor = label_bg;
-        _messageLabel.layer.cornerRadius = 5;
-        _messageLabel.layer.masksToBounds = YES;
         _messageLabel.textColor = [UIColor colorWithRed:0.267 green:0.271 blue:0.271 alpha:1.000];
+        _messageLabel.backgroundColor = [UIColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:0.9];
+        _messageLabel.layer.shadowColor = [UIColor grayColor].CGColor;
+        _messageLabel.layer.shadowOffset = CGSizeMake(0, 3);
+        _messageLabel.layer.shadowOpacity = 0.5;
+        _messageLabel.layer.shadowRadius = 6.0;
+        _messageLabel.layer.cornerRadius = 10.0;
+        _messageLabel.clipsToBounds = NO;
     }
     return self;
 }

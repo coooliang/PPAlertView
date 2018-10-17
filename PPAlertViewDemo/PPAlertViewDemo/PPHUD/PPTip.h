@@ -7,10 +7,24 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
+typedef enum : NSUInteger {
+    PPTip_Message_Success_Type,
+    PPTip_Message_Fail_Type,
+    PPTip_Message_Warn_Type,
+    PPTip_Message_Normal_Type
+} PPTipType;
 NS_ASSUME_NONNULL_BEGIN
 
-@interface PPTip : NSObject
+@interface PPTip : UIView
+
++ (id)sharedInstance;
+
+-(void)showMessage:(NSString *)message type:(PPTipType)tipType;
+-(void)hide;
+
+@property(nonatomic,strong) UILabel *messageLabel;
 
 @end
 

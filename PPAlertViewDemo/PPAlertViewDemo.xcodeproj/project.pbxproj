@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		90E7F1B3217086E9002E0D90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E7F1B2217086E9002E0D90 /* AppDelegate.m */; };
 		90E7F1B6217086E9002E0D90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E7F1B5217086E9002E0D90 /* ViewController.m */; };
-		90E7F1B9217086E9002E0D90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90E7F1B7217086E9002E0D90 /* Main.storyboard */; };
 		90E7F1BB217086EB002E0D90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90E7F1BA217086EB002E0D90 /* Assets.xcassets */; };
 		90E7F1BE217086EB002E0D90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90E7F1BC217086EB002E0D90 /* LaunchScreen.storyboard */; };
 		90E7F1C1217086EB002E0D90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E7F1C0217086EB002E0D90 /* main.m */; };
@@ -26,6 +25,10 @@
 		90E7F20F2175CAA8002E0D90 /* pp_activity_view_mask_center@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90E7F20D2175CAA7002E0D90 /* pp_activity_view_mask_center@2x.png */; };
 		90E7F2102175CAA8002E0D90 /* pp_activity_view_mask_center@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90E7F20E2175CAA8002E0D90 /* pp_activity_view_mask_center@3x.png */; };
 		90E7F2172175DAD8002E0D90 /* PPTip.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E7F2162175DAD8002E0D90 /* PPTip.m */; };
+		90E7F21B217708C6002E0D90 /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E7F21A217708C6002E0D90 /* AlertViewController.m */; };
+		90E7F21E217708D3002E0D90 /* HUDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E7F21D217708D3002E0D90 /* HUDViewController.m */; };
+		90E7F221217708E2002E0D90 /* ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E7F220217708E2002E0D90 /* ActivityViewController.m */; };
+		90E7F22421770A31002E0D90 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E7F22321770A31002E0D90 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +37,6 @@
 		90E7F1B2217086E9002E0D90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		90E7F1B4217086E9002E0D90 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		90E7F1B5217086E9002E0D90 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		90E7F1B8217086E9002E0D90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90E7F1BA217086EB002E0D90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90E7F1BD217086EB002E0D90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90E7F1BF217086EB002E0D90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,6 +61,14 @@
 		90E7F20E2175CAA8002E0D90 /* pp_activity_view_mask_center@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pp_activity_view_mask_center@3x.png"; sourceTree = "<group>"; };
 		90E7F2152175DAD8002E0D90 /* PPTip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPTip.h; sourceTree = "<group>"; };
 		90E7F2162175DAD8002E0D90 /* PPTip.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPTip.m; sourceTree = "<group>"; };
+		90E7F219217708C6002E0D90 /* AlertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertViewController.h; sourceTree = "<group>"; };
+		90E7F21A217708C6002E0D90 /* AlertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertViewController.m; sourceTree = "<group>"; };
+		90E7F21C217708D3002E0D90 /* HUDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUDViewController.h; sourceTree = "<group>"; };
+		90E7F21D217708D3002E0D90 /* HUDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUDViewController.m; sourceTree = "<group>"; };
+		90E7F21F217708E2002E0D90 /* ActivityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActivityViewController.h; sourceTree = "<group>"; };
+		90E7F220217708E2002E0D90 /* ActivityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActivityViewController.m; sourceTree = "<group>"; };
+		90E7F22221770A31002E0D90 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		90E7F22321770A31002E0D90 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +108,11 @@
 				90E7F1B2217086E9002E0D90 /* AppDelegate.m */,
 				90E7F1B4217086E9002E0D90 /* ViewController.h */,
 				90E7F1B5217086E9002E0D90 /* ViewController.m */,
-				90E7F1B7217086E9002E0D90 /* Main.storyboard */,
 				90E7F1BA217086EB002E0D90 /* Assets.xcassets */,
 				90E7F1BC217086EB002E0D90 /* LaunchScreen.storyboard */,
 				90E7F1BF217086EB002E0D90 /* Info.plist */,
 				90E7F1C0217086EB002E0D90 /* main.m */,
+				90E7F2182177088F002E0D90 /* DemoViewControllers */,
 			);
 			path = PPAlertViewDemo;
 			sourceTree = "<group>";
@@ -172,6 +182,21 @@
 			path = PPHUD;
 			sourceTree = "<group>";
 		};
+		90E7F2182177088F002E0D90 /* DemoViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				90E7F22221770A31002E0D90 /* TableViewController.h */,
+				90E7F22321770A31002E0D90 /* TableViewController.m */,
+				90E7F219217708C6002E0D90 /* AlertViewController.h */,
+				90E7F21A217708C6002E0D90 /* AlertViewController.m */,
+				90E7F21F217708E2002E0D90 /* ActivityViewController.h */,
+				90E7F220217708E2002E0D90 /* ActivityViewController.m */,
+				90E7F21C217708D3002E0D90 /* HUDViewController.h */,
+				90E7F21D217708D3002E0D90 /* HUDViewController.m */,
+			);
+			path = DemoViewControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -236,7 +261,6 @@
 				90E7F1BE217086EB002E0D90 /* LaunchScreen.storyboard in Resources */,
 				90E7F1BB217086EB002E0D90 /* Assets.xcassets in Resources */,
 				90E7F1F62175BBAD002E0D90 /* pp_alert_view_closed@2x.png in Resources */,
-				90E7F1B9217086E9002E0D90 /* Main.storyboard in Resources */,
 				90E7F1F72175BBAD002E0D90 /* pp_alert_view_closed@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,8 +277,12 @@
 				90E7F1D321708795002E0D90 /* UIView+CGAffineTransfor.m in Sources */,
 				90E7F20C2175BFA5002E0D90 /* PPHUD.m in Sources */,
 				90E7F1C1217086EB002E0D90 /* main.m in Sources */,
+				90E7F22421770A31002E0D90 /* TableViewController.m in Sources */,
 				90E7F1B3217086E9002E0D90 /* AppDelegate.m in Sources */,
+				90E7F21E217708D3002E0D90 /* HUDViewController.m in Sources */,
+				90E7F21B217708C6002E0D90 /* AlertViewController.m in Sources */,
 				90E7F1EA2175B5A1002E0D90 /* PPActivityView.m in Sources */,
+				90E7F221217708E2002E0D90 /* ActivityViewController.m in Sources */,
 				90E7F2172175DAD8002E0D90 /* PPTip.m in Sources */,
 				90E7F1D221708795002E0D90 /* PPAlertView.m in Sources */,
 				90E7F1D421708795002E0D90 /* UIColor+Tools.m in Sources */,
@@ -264,14 +292,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		90E7F1B7217086E9002E0D90 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				90E7F1B8217086E9002E0D90 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		90E7F1BC217086EB002E0D90 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

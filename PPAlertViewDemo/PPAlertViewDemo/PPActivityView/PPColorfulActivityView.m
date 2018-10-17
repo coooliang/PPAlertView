@@ -35,7 +35,7 @@
     _angle = 0;
     
     //TODO:TEST replace pp_activity_view_mask_center，48*24 73*37
-    _logoImageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@""]];
+    _logoImageView = [[UIImageView alloc]initWithImage:nil];
     
     [self addSubview:_logoImageView];
     _animatedCircleImageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"pp_activity_view_animate_circle"]];

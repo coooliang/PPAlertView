@@ -3,7 +3,6 @@
 * not profound code , just save your time
 
 ```
-
 PPAlertView *alertView = [PPAlertView new];
 //alertView.hiddenCloseButton = YES;
 //alertView.colorTheme = PPAlertViewColorBlue;
@@ -15,15 +14,23 @@ PPAlertView *alertView = [PPAlertView new];
 }];
 
 ```
-<figure class="third">
-	<img src="https://github.com/coooliang/PPAlertView/blob/master/1.png" width="30%" height="30%" />
-	<img src="https://github.com/coooliang/PPAlertView/blob/master/2.png" width="30%" height="30%" />
-	<img src="https://github.com/coooliang/PPAlertView/blob/master/3.png" width="30%" height="30%" />
+<figure>
+	<img src="https://github.com/coooliang/PPAlertView/blob/master/alertview.png" width="30%" height="60%" />
 </figure>
+
+```
+PPActivityView *activityView = [[PPActivityView alloc]initWithFrame:self.view.bounds];
+[self.view addSubview:activityView];
+[activityView startAnimate];
+```
 
 <figure>
 <img src="https://github.com/coooliang/PPAlertView/blob/master/21.png" width="30%" height="60%" />
 </figure>
+
+```
+[PPHUD showMessage:@"hello world"];
+```
 
 <figure>
 <img src="https://github.com/coooliang/PPAlertView/blob/master/31.png" width="30%" height="60%" />
